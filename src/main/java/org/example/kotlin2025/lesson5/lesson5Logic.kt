@@ -1,0 +1,32 @@
+
+package org.example.kotlin2025.lesson5
+/*
+class lesson5 {
+
+    Простой уровень
+    1. (12 / 3 > 3) && (5 * 2 == 10) пример решения: true && true = true
+    2. (14 - 4 <= 10) || (6 / 2 != 3) ___true || false —> true
+    3. (9 + 1 == 10) && (8 % 2 == 0)___true &&  true —> true
+    4. (7 - 2 < 5) || (4 * 3 != 12) ___false || false —> false
+    5. (18 / 6 >= 3) && (5 + 5 == 10) ___true && true —>  true
+    6. (11 % 3 != 2) || (9 - 3 == 6)___false || true —>  true
+    7. (5 * 2 < 11) && (14 / 2 == 7)___true &&  true —> true
+    8. (8 + 2 <= 10) || (7 % 2 != 1)___true || false —> true
+    9. (16 / 4 > 3) && (3 + 4 == 7)___true&& true —>true
+    10. (10 % 2 == 0) || (5 - 3 != 1)___true || true —->  true
+
+    Сложный уровень
+    1. ((4 * 3) < 13) && !(8 / 4 == 2) || (10 % 3 != 1)___ true && false  || false  —> false
+    2. ((14 - 5) > 8) || (9 / 3 == 3) && !(7 + 0 != 7) ___true || true && true —> true
+    3. ((2 + 3) <= 5) && (16 / 4 == 4) || !(6 % 2 == 0)___true && true || false —> true
+    4. ((5 * 3) != 15) && !(10 / 2 > 4) || (4 + 4 == 8)___false && false ||  true —>true
+    5. ((12 / 4) >= 3) || (7 % 2 != 1) && !(3 + 3 == 6)___true || false && false —>true
+
+    Продвинутый уровень
+    1. (var f = 6; --f >= 5) || ((3 * 2 == 6) && (9 - 4 != 5)) ___true || true && false —> true
+    2. ((var g = 0; g++ != 0) && (4 + 2 == 6)) || (5 / 1 == 5)___false && true || true —> true
+    3. (var h = 7; h-- > 6) || (8 + 1 == 9) && (3 % 2 != 1)___true || true &&  false —> true
+    4. ((var i = 5; i++ == 5) || (2 * 2 != 4)) && (10 / 2 == 5)___ true || false && true —> true
+    5. (var j = 4; j-- < 4) && ((6 + 0 == 6) || (5 % 2 != 1))___false && true || false —> false
+
+}*/

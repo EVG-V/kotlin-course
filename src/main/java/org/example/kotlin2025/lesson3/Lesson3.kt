@@ -1,4 +1,4 @@
-package org.example.kotlin2025
+package org.example.kotlin2025.lesson3
 
 class lesson3 {
 
