@@ -21,8 +21,8 @@ class lesson5Task {
     Задача: Рассчитать полную стоимость доставки.
     */
     fun fullDeliveryCost(deliveryCost: Double, productCost: Double?) {
-        val insuranceCost =  productCost?.let{ it * 0.0005} ?: 50.00
-        val fullDeliveryCost: Double = deliveryCost + insuranceCost
+        val insuranceCost =  productCost ?: 50.00
+        val fullDeliveryCost: Double = deliveryCost + insuranceCost * 0.0005
         println(fullDeliveryCost)
     }
 
