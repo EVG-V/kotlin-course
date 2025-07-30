@@ -6,7 +6,7 @@ class lesson6Task {
     Контекст: Напишите функцию, которая на основе номера месяца возвращает сезон года.
 */
     fun getSeason(numberOfMonth: Int): String {
-        val resultGetSeason = return when {
+       return when {
             numberOfMonth < 1 || numberOfMonth > 12 -> "Ввведен неверный номер месяца"
             numberOfMonth in 1..2 || numberOfMonth == 12 -> "Cезон: Зима"
             numberOfMonth in 3..5 -> "Cезон: Весна"
