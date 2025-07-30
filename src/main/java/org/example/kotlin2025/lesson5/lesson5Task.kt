@@ -36,3 +36,10 @@ class lesson5Task {
         println(atmosphericPressureChecker)
     }
 }
+
+fun main() {
+    val lesson5Task = lesson5Task()
+    val task = lesson5Task()
+    task.soundIntensity(5.0, null)
+    task.fullDeliveryCost(50.99, null)
+    task.meteorologicalMeasurements("500", "2", null)}
